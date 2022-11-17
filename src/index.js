@@ -13,7 +13,6 @@ function Home() {
 
 function CCNavBar() {
     return (
-        
         <Navbar variant="dark" bg="dark">
             <Container>
                 <Navbar.Brand>ConnectCarolina</Navbar.Brand>
@@ -24,7 +23,6 @@ function CCNavBar() {
                 </Nav>
             </Container>
         </Navbar>
-        
     );
 }
 

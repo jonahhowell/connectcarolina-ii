@@ -3,6 +3,7 @@ import ReactDOM from "react-dom/client";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from "react-bootstrap/Navbar";
 import Container from "react-bootstrap/Container";
+import { Nav, NavLink } from "react-bootstrap";
 
 function Home() {
     return (
@@ -15,9 +16,13 @@ function CCNavBar() {
         
         <Navbar variant="dark" bg="dark">
             <Container>
-                <Navbar.Brand>Home</Navbar.Brand>
+                <Navbar.Brand>ConnectCarolina</Navbar.Brand>
+                <Nav className="me-auto">
+                    <NavLink>Home</NavLink>
+                    <NavLink>Register</NavLink>
+                    <NavLink>Profile</NavLink>
+                </Nav>
             </Container>
-
         </Navbar>
         
     );
